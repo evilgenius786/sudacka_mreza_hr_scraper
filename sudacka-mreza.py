@@ -40,10 +40,10 @@ errorfile = 'error-sudacka-mreza.txt'
 semaphore = threading.Semaphore(threadcount)
 lock = threading.Lock()
 
-licitacija = 'https://licitacija.hr/sudacka-mreza.hr.php'
-headers = ['Naziv', 'Sud', 'SteËajni duûnik', 'Kategorija imovine', 'Rok za ponudu', 'Novi datum za ponude',
-           'Vrijednost', 'Napomena', 'Status', 'Broj postupka', 'SteËajni upravitelj', 'Vrsta imovine', 'Datum draûbe',
-           'Novi datum draûbe', 'Oglas', 'Link', 'Datoteka 1', 'Datoteka 2', 'Datoteka 3']
+licitacija = 'https://licitacija.hr/upload.php'
+headers = ['Naziv', 'Sud', 'Ste√®ajni du≈ænik', 'Kategorija imovine', 'Rok za ponudu', 'Novi datum za ponude',
+           'Vrijednost', 'Napomena', 'Status', 'Broj postupka', 'Ste√®ajni upravitelj', 'Vrsta imovine', 'Datum dra≈æbe',
+           'Novi datum dra≈æbe', 'Oglas', 'Link', 'Datoteka 1', 'Datoteka 2', 'Datoteka 3']
 
 
 def scrape(url):
