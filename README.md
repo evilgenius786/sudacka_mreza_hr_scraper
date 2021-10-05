@@ -1,2 +1,9 @@
-# sudacka_mreza_hr_scraper
-Scrapes data from sudacka-mreza.hr
+# Sudacka-Mreza.hr Scraper
+Scrapes data from sudacka-mreza.hr <br>
+Requirements:<br>
+Selenium<br>
+OpenPyXl<br>
+LXML<br>
+BS4<br>
+Requests<br>
+XlsxWriter<br>
